@@ -7,7 +7,7 @@ export const StartGame = () => {
   const dispatch = useDispatch();
 
   return (
-    <>
+    <div>
       <button
         className="start__button"
         type="button"
@@ -29,6 +29,6 @@ export const StartGame = () => {
       >
         Difficult level
       </button>
-    </>
+    </div>
   );
 };

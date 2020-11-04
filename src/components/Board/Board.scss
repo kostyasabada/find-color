@@ -1,0 +1,56 @@
+.board {
+
+  &__list {
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+    &_not_active {
+      pointer-events: none;
+    }
+  }
+
+  &__item {
+    box-sizing: border-box;
+    padding: 5px;
+    min-width: 80px;
+    height: 80px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+
+    &:hover {
+      box-shadow: 0 0 5px rgb(0,0,0);
+    }
+
+    &_selected {
+      pointer-events: none;
+    }
+
+    &_found {
+      pointer-events: none;
+      background-color: rgba(0,0,0,0.5);;
+    }
+  }
+
+  &__button {
+    margin: 20px;
+    height: 30px;
+    width: 100px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 3px;
+    background-color: #eeebeb;
+
+    &:hover {
+      box-shadow: 0 0 5px rgba(0,0,0,0.5);
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

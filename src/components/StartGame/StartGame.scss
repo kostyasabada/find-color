@@ -1,0 +1,21 @@
+.start {
+
+  &__button {
+    margin: 20px;
+    height: 30px;
+    width: 100px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 3px;
+    background-color: #eeebeb;
+
+    &:hover {
+      box-shadow: 0 0 5px rgba(0,0,0,0.5);
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

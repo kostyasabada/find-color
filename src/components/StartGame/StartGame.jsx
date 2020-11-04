@@ -1,5 +1,5 @@
 import React from 'react';
-import './StartGame.scss';
+import './StartGame.css';
 import { useDispatch } from 'react-redux';
 import { createBoard } from '../../redux/boardReducer';
 

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/no-noninteractive-element-to-interactive-role */
 import React, { useCallback, useEffect } from 'react';
 import classnames from 'classnames';
-import './Board.scss';
+import './Board.css';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   getBoard, getFoundTiles, getRound, getSelectedTiles,
